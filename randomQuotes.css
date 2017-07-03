@@ -1,0 +1,101 @@
+body {
+	font-family: Roboto;
+	color: white;
+	background: #6BB9F0;
+}
+
+#container {
+	max-width: 700px;
+	margin: 100px auto;
+	text-align: center;
+	padding-bottom: 20px;
+	border-radius: 10px;
+	background: #fff;
+}
+
+@media only screen and (max-width: 580px){
+    #container { width: 100%; margin: 100px auto;}
+}
+
+#title {
+	background: #1F3A93;
+	margin: 0;
+	height: 60px;
+	line-height: 60px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+@media only screen and (max-width: 580px){
+    #title { font-size: 5vw;}
+}
+
+#mainElement {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	color: #34495E;
+}
+
+#quotesDisplay {
+	margin-top: 50px;
+	font-size: 20px;
+	font-weight: bold; 
+}
+
+@media only screen and (max-width: 580px){
+    #quotesDisplay { font-size: 4vw;}
+}
+
+#movieDisplay {
+	margin-top: 20px;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+	color: #67809F; 
+}
+
+@media only screen and (max-width: 580px){
+    #movieDisplay { font-size: 4vw;}
+}
+
+button {
+	margin-top: 50px;
+	width: 60%;
+	border-radius: 5px;
+	padding: 14px 50px;
+	cursor: pointer;
+	color: #fff;
+	background-color: #1F3A93;
+	font-size: 16px;
+	font-family: 'Roboto';
+	font-weight: 100;
+	border: 1px solid #fff;
+	box-shadow: 2px 2px 5px #AFE9FF;
+	transition-duration: 0.5s;
+	  -webkit-transition-duration: 0.5s;
+	  -moz-transition-duration: 0.5s;
+	outline: none;
+}
+
+button:hover {
+	letter-spacing: 1px;
+	border: 1px solid #006398;
+  	box-shadow: 2px 2px 20px #AFE9FF;
+}
+
+@media only screen and (max-width: 580px){
+    button { width: 80%; font-size: 4vw;}
+
+}
+
+#twitterButton {
+	margin: 10px auto;
+	background-color: #00A6FF;
+}
+
+.fa-twitter {
+	color: white;
+}
+
+.fa-plus {
+	color: white;
+}
